@@ -6,7 +6,7 @@ install.packages('corrplot')
 library(corrplot)
 
 #Improting Data set
-fish=import("C:\\Users\\saisu\\Downloads\\Fish_Data.xlsx")
+fish=import("Fish_Data.xlsx")
 
 #Modifying Columns
 colnames(fish)=tolower(make.names(colnames(fish)))
